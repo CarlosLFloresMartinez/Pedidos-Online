@@ -1,0 +1,40 @@
+.menu a{
+    text-align: center;
+    padding: 15px;
+    color: black;
+    text-decoration:none;
+}
+img{
+    text-align: center;
+}
+div.imagen{
+    text-align: center;
+}
+nav{
+    text-align: right;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(78, 117, 216);
+    font-size: 15px;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color:whitesmoke;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("Fondo.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
